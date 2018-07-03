@@ -1,0 +1,48 @@
+# Site
+name: Yadhar
+description:
+meta_description: "Website for Sandeep saini"
+logo: 'assets/img/logo-white.png'
+baseurl:
+
+sass:
+    style: compressed
+exclude:
+    - .idea
+    - node_modules
+    - vendor
+    - README.md
+    - LICENSE.md
+    - CNAME
+    - Gemfile
+    - Gemfile.lock
+    - Gruntfile.js
+    - package.json
+include:
+    - _pages
+
+# Authors
+authors:
+  santosh:
+    name: Sandeep Saini
+    display_name: Sandeep Saini
+    gravatar: 490533114d37d4e77f19a6df14e43d7b
+    email: programmingethicalhackerway@gmail.com
+    web: https://sainisandeep.com
+    twitter:
+    description: "Cyber Security Researcher"
+
+# Plugins
+plugins: 
+  - jekyll-paginate
+  - jekyll-sitemap
+    
+# Outputting Blog
+permalink: /blog/:title/
+paginate: 10
+paginate_path: /blog/page:num
+
+    
+# Other
+markdown: kramdown
+highlighter: rouge
