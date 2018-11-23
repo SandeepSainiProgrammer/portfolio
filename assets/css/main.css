@@ -2133,6 +2133,10 @@ header .logo a {
 #services .section-intro p {
 	color: rgba(255, 255, 255, 0.7);
 }
+.owl-carousel .owl-item {
+	float: left;
+	padding: 0 15px;
+}
 .services-content {
 	max-width: 1200px;
 }
@@ -2154,11 +2158,18 @@ header .logo a {
 }
 .services-list h3 {
 	color: #FFFFFF;
+	font-size: 15px;
 }
 .services-list .desc {
 	color: rgba(255, 255, 255, 0.6);
+	font-size: 14px;
+	text-align: justify;
+	line-height: initial;
 }
-
+.services-list .desc b{
+	display: block;
+	text-align: right;
+}
 /* pagination */
 .owl-pagination {
 	text-align: center;
